@@ -94,6 +94,16 @@ teachers <- numeric (1000)
 
 To test the odds of Brownlows wins, we used an initial sample of 40 teachers. However the odds remained unstable at 40, so we expanded the sample to 1000 teachers. After conducting multiple tests, the set of odds with a stability factor of 4.39 were the best.
 
+```{r}
+# Create a histogram
+hist(teachers, 
+     main = "teachers Histogram",
+     xlab = "teachers",
+     ylab = "Frequency",
+     col = "skyblue",
+     border = "black")
+```
+
 # What size of class makes the 2:1 bet fair?  Use manipulation of number of Students to tune Brownlows earnings to zero.
 
 <!--Explain and display the results of your method of coming up with the estimate of professor Brownlows betting profits!-->
